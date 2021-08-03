@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=0"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script type="text/javascript">
+    var soundFX01 = new Audio();
+    soundFX01.src = "assets/sound/asaBranca.mp3"
+    var soundFX02 = new Audio();
+    soundFX02.src = "assets/sound/fogoSemFuzil.mp3"
+    var soundFX03 = new Audio();
+    soundFX03.src = "assets/sound/aMorteDoVaqueiro.mp3"
+    var soundFX04 = new Audio();
+    soundFX04.src = "assets/sound/numaSalaDeReboco.mp3"
+        window.onload = function(){
+            document.querySelector(".firstMusic").addEventListener("click", function(){
+                if(document.querySelector(".firstMusic").style.color == 'green'){
+                    document.querySelector(".firstMusic").style.color = 'white';
+                    document.querySelector(".firstMusic").style.fontSize = '15pt';
+                    document.querySelector(".secondMusic").style.display = 'block';
+                    document.querySelector(".thirdMusic").style.display = 'block';
+                    document.querySelector(".fourfMusic").style.display = 'block';
+                    soundFX01.pause();
+                    soundFX01.currentTime = 0;
+                }else {
+                    document.querySelector(".firstMusic").style.color = 'green';
+                    document.querySelector(".firstMusic").style.fontSize = '70pt';
+                    document.querySelector(".secondMusic").style.display = 'none';
+                    document.querySelector(".thirdMusic").style.display = 'none';
+                    document.querySelector(".fourfMusic").style.display = 'none';
+                    soundFX01.play();
+                }
+            });
+            document.querySelector(".secondMusic").addEventListener("click", function(){
+                if(document.querySelector(".secondMusic").style.color == 'green'){
+                    document.querySelector(".secondMusic").style.color = 'white';
+                    document.querySelector(".secondMusic").style.fontSize = '15pt';
+                    document.querySelector(".firstMusic").style.display = 'block';
+                    document.querySelector(".thirdMusic").style.display = 'block';
+                    document.querySelector(".fourfMusic").style.display = 'block';
+                    soundFX02.pause();
+                    soundFX02.currentTime = 0;
+                }else {
+                    document.querySelector(".secondMusic").style.color = 'green';
+                    document.querySelector(".secondMusic").style.fontSize = '70pt';
+                    document.querySelector(".firstMusic").style.display = 'none';
+                    document.querySelector(".thirdMusic").style.display = 'none';
+                    document.querySelector(".fourfMusic").style.display = 'none';
+                    soundFX02.play();
+                }
+            });
+            document.querySelector(".thirdMusic").addEventListener("click", function(){
+                if(document.querySelector(".thirdMusic").style.color == 'green'){
+                    document.querySelector(".thirdMusic").style.color = 'white';
+                    document.querySelector(".thirdMusic").style.fontSize = '15pt';
+                    document.querySelector(".secondMusic").style.display = 'block';
+                    document.querySelector(".firstMusic").style.display = 'block';
+                    document.querySelector(".fourfMusic").style.display = 'block';
+                    soundFX03.pause();
+                    soundFX03.currentTime = 0;
+                }else {
+                    document.querySelector(".thirdMusic").style.color = 'green';
+                    document.querySelector(".thirdMusic").style.fontSize = '70pt';
+                    document.querySelector(".secondMusic").style.display = 'none';
+                    document.querySelector(".firstMusic").style.display = 'none';
+                    document.querySelector(".fourfMusic").style.display = 'none';
+                    soundFX03.play();
+                }
+            });
+            document.querySelector(".fourfMusic").addEventListener("click", function(){
+                if(document.querySelector(".fourfMusic").style.color == 'green'){
+                    document.querySelector(".fourfMusic").style.color = 'white';
+                    document.querySelector(".fourfMusic").style.fontSize = '15pt';
+                    document.querySelector(".secondMusic").style.display = 'block';
+                    document.querySelector(".thirdMusic").style.display = 'block';
+                    document.querySelector(".firstMusic").style.display = 'block';
+                    soundFX04.pause();
+                    soundFX04.currentTime = 0;
+                }else {
+                    document.querySelector(".fourfMusic").style.color = 'green';
+                    document.querySelector(".fourfMusic").style.fontSize = '70pt';
+                    document.querySelector(".secondMusic").style.display = 'none';
+                    document.querySelector(".thirdMusic").style.display = 'none';
+                    document.querySelector(".firstMusic").style.display = 'none';
+                    soundFX04.play();
+                }
+            });
+        };
+    </script>
+    <title>Tributo Luiz Gonzaga</title>
+</head>
+<body>
+<header>
+    <div id="logo">
+        <div class="tributeTitle">
+            <h1>Luiz Gonzaga</h1>
+            <h2>O Rei do Baião</h2>
+            <div class="firstMusic">&#9833;</div>
+            <div class="secondMusic">&#9835;</div>
+            <div class="thirdMusic">&#9834;</div>
+            <div class="fourfMusic">&#9836;</div>
+        </div>
+        <img src="https://i.ibb.co/2qMhvwG/luiz-Title.jpg" title="Luiz Gonzaga - Rei do Baião">
+    </div>
+    <scan>Exu, 13 de dezembro de 1912 – Recife, 2 de agosto de 1989</scan>
+</header>
+<section class="geral">
+<div class="container column">
+    <div class="titleTxt">Luiz Gonzaga do Nascimento</div>
+    <div class="description">
+        <div class="descriptionTxt">
+            <scan>Foi um compositor e cantor brasileiro. Também conhecido como o Rei do Baião, foi considerado uma das mais completas, importantes e criativas figuras da música popular brasileira.</scan><br><br>
+            <scan>Cantando acompanhado de sua sanfona, zabumba e triângulo (conjunto básico dos cantores de baião, que ele mesmo definiu), levou para todo o país a cultura musical do nordeste, como o baião, o xaxado, o xote e o forró pé de serra. Suas composições também descreviam a pobreza, as tristezas e as injustiças de sua árida terra, o sertão nordestino.</scan><br><br>
+            <scan>Luiz Gonzaga ganhou notoriedade com as antológicas canções "Asa Branca" (1947), "Juazeiro" (1948) e "Baião de Dois" (1950). Pai adotivo do músico Gonzaguinha, Gonzagão influenciou outros artistas da MPB como Geraldo Vandré, Gilberto Gil e Caetano Veloso.</scan>
+        </div>
+        <div class="imagem">
+            <img src="https://www.destaquenoticias.com.br/wp-content/uploads/2020/08/luiz-gonzaga.jpg" title="Luiz Gonzaga do Nascimento">
+        </div>
+    </div>
+    <div class="titleTxt">Discografia</div>
+    <div class="discografy">
+        <div class="discografyIMG">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Luiz-Gonzaga-Est%C3%A1tua-de-bronze.jpg/450px-Luiz-Gonzaga-Est%C3%A1tua-de-bronze.jpg" title="Estátua de bronze em homenagem a Luiz Gonzaga">
+            <img src="https://zinebrasil.files.wordpress.com/2012/12/01-gonzaga.jpg?w=500" title="ART e desenho em homenagem a Luiz Gonzaga">
+            <img src="https://i.pinimg.com/originals/98/7a/99/987a99ef693f455caa0527cf22d85012.jpg" title="Painel em comemoração aos 100 anos de Luiz Gonzaga">
+        </div>
+        <div class="discografyData">
+            <dl>
+                <dt>1951</dt>
+                <dd>Olha pro Céu</dd>
+                <div class="line"></div>
+                <dt>1954</dt>
+                <dd>A História do Nordeste</dd>
+                <dd>Luiz Gonzaga e Januário</dd>
+                <div class="line"></div>
+                <dt>1956</dt>
+                <dd>Aboios e Vaquejadas</dd>
+                <div class="line"></div>
+                <dt>1957</dt>
+                <dd>O Reino do Baião</dd>
+                <div class="line"></div>
+                <dt>1958</dt>
+                <dd>Xamego</dd>
+                <div class="line"></div>
+                <dt>1961</dt>
+                <dd>Luiz "LUA" Gonzaga</dd>
+                <div class="line"></div>
+            </dl>
+            <dl>
+                <dt>1962</dt>
+                <dd>Ô Véio Macho</dd>
+                <dd>São João na Roça</dd>
+                <div class="line"></div>
+                <dt>1963</dt>
+                <dd>Pisa no Pilão (Festa do Milho)</dd>
+                <div class="line"></div>
+                <dt>1964</dt>
+                <dd>A Triste Partida</dd>
+                <dd>Sanfona do Povo</dd>
+                <div class="line"></div>
+                <dt>1965</dt>
+                <dd>Quadrilhas e Marchinhas Juninas</dd>
+                <div class="line"></div>
+                <dt>1967</dt>
+                <dd>O Sanfoneiro do Povo de Deus</dd>
+                <dd>Óia Eu Aqui de Novo</dd>
+                <div class="line"></div>
+                <dt>1968</dt>
+                <dd>Canaã</dd>
+                <dd>São João do Araripe</dd>
+                <div class="line"></div>
+            </dl>
+            <dl>
+                <dt>1970</dt>
+                <dd>Sertão 70</dd>
+                <div class="line"></div>
+                <dt>1971</dt>
+                <dd>O Canto Jovem de Luiz Gonzaga</dd>
+                <dd>São João Quente</dd>
+                <div class="line"></div>
+                <dt>1972</dt>
+                <dd>Aquilo Bom!</dd>
+                <dd>Volta pra Curtir (Ao Vivo)</dd>
+                <div class="line"></div>
+                <dt>1973</dt>
+                <dd>Luiz Gonzaga</dd>
+                <div class="line"></div>
+                <dt>1974</dt>
+                <dd>Daquele Jeito...</dd>
+                <dd>O Fole Roncou</dd>
+                <div class="line"></div>
+                <dt>1976</dt>
+                <dd>Capim Novo</dd>
+                <div class="line"></div>
+            </dl>
+            <dl>
+                <dt>1977</dt>
+                <dd>Chá Cutuba</dd>
+                <div class="line"></div>
+                <dt>1978</dt>
+                <dd>Dengo Maior</dd>
+                <div class="line"></div>
+                <dt>1979</dt>
+                <dd>Eu e Meu Pai</dd>
+                <dd>Quadrilhas e Marchinhas Juninas,<br> —— vol. 2 — Vire Que Tem Forró</dd>
+                <div class="line"></div>
+                <dt>1980</dt>
+                <dd>O Homem da Terra</dd>
+                <div class="line"></div>
+                <dt>1981</dt>
+                <dd>A Festa</dd>
+                <dd>A Vida do Viajante<br> —— Gonzagão e Gonzaguinha</dd>
+                <div class="line"></div>
+                <dt>1982</dt>
+                <dd>Eterno Cantador</dd>
+                <div class="line"></div>
+            </dl>
+            <dl>
+                <dt>1983</dt>
+                <dd>70 Anos de Sanfona e Simpatia</dd>
+                <div class="line"></div>
+                <dt>1984</dt>
+                <dd>Danado de Bom</dd>
+                <dd>Luiz Gonzaga & Fagner</dd>
+                <div class="line"></div>
+                <dt>1985</dt>
+                <dd>Sanfoneiro Macho</dd>
+                <div class="line"></div>
+                <dt>1986</dt>
+                <dd>Forró de Cabo a Rabo</dd>
+                <div class="line"></div>
+                <dt>1987</dt>
+                <dd>De Fiá Pavi</dd>
+                <div class="line"></div>
+                <dt>1988</dt>
+                <dd>Aí Tem</dd>
+                <dd>Gonzagão & Fagner 2<br> —— ABC do Sertão</dd>
+                <div class="line"></div>
+                <dt>1989</dt>
+                <dd>Vou Te Matar de Cheiro</dd>
+                <dd>Aquarela Nordestina</dd>
+                <dd>Forrobodó Cigano</dd>
+                <dd>Luiz Gonzaga e sua Sanfona, vol. 2</dd>
+                <div class="line"></div>
+            </dl>
+        </div>
+    </div>
+    <div class="titleTxt">Últimos Momentos e morte</div>
+    <div class="death">
+        Luiz Gonzaga sofreu de osteoporose por anos. Em 2 de agosto de 1989, morreu vítima de Parada cardiorrespiratória no Hospital Santa Joana, na capital pernambucana. Outra fonte diz que ele foi vítima de um câncer de próstata. Seu corpo foi velado na Assembleia Legislativa de Pernambuco, em Recife e posteriormente sepultado em seu município natal.
+    </div>
+    <div class="titleTxt">Legado</div>
+    <div class="legacy">
+        A Usina Hidrelétrica Luiz Gonzaga é uma homenagem ao cantor.<br>
+        Em 2012 Luiz Gonzaga foi tema do carnaval da GRES Unidos da Tijuca, no Rio de Janeiro, com o enredo "O Dia em Que Toda a Realeza Desembarcou na Avenida para Coroar o Rei Luiz do Sertão", fazendo com que a escola ganhasse o carnaval carioca daquele ano.<br>
+        Ana Krepp, da Revista da Cultura escreveu: "O rei do baião pode ser também considerado o primeiro rei do pop no Brasil. Pop, aqui, empregado em seu sentido original, de popular. De 1946 a 1955 foi o artista que mais vendeu discos no Brasil, somando quase 200 gravados e mais de 80 milhões de cópias vendidas. 'Comparo Gonzagão a Michael Jackson. Ele desenhava as próprias roupas e inventava os passos que fazia no palco com os músicos', ilustra [o cineasta] Breno [Silveira, diretor de Gonzaga — De pai para filho]. Foi o cantor e músico e também o primeiro a fazer uma turnê pelo Brasil. Antes dele, os artistas não saíam do eixo Rio-SP. Gonzagão gostava mesmo era do showbiz: viajar, fazer shows e tocar para plateias do interior."<br>
+        Em 2012, o filme de Breno Silveira, Gonzaga: de Pai pra Filho, narrando a relação conturbada de Luiz com o filho Gonzaguinha, em três semanas de exibição já alcançara a marca de um milhão de espectadores.
+    </div>
+</div>
+</section>
+<footer class="geral">
+    <div class="footerCopyright">
+        <div class="copyright">© Copyright Templete - Anderson Andrade</div>
+        <div class="footerToTop"><a href="#top">Top &#9650;</a></div>
+    </div>
+</footer>
+</body>
+</html>

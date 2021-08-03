@@ -1,0 +1,187 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #eea508;
+}
+#logo{
+    display: flex;
+}
+#logo img{
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #e4c788;
+}
+header .tributeTitle{
+    color: #F9F9F9;
+    font-size: 15pt;
+    margin-right: 20px;
+}
+.tributeTitle h1{
+    margin-right: 20px;
+}
+.tributeTitle .firstMusic,.tributeTitle .secondMusic,.tributeTitle .thirdMusic,.tributeTitle .fourfMusic{
+    display: block;
+    color: white;
+    font-size: 15pt;
+}
+.tributeTitle .firstMusic{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.tributeTitle .secondMusic{
+    position: relative;
+    left: 30px;
+}
+.tributeTitle .thirdMusic{
+    position: relative;
+    left: 60px;
+}
+.tributeTitle .fourfMusic{
+    position: relative;
+    left: 90px;
+}
+header scan{
+    color: #F9F9F9;
+    font-size: 11pt;
+    margin: 20px;
+}
+.geral{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 900px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.column{
+    flex-direction: column;
+}
+.container .titleTxt{
+    height: 40px;
+    padding-left: 10px;
+    line-height: 40px;
+    font-size: 14pt;
+    font-family: Cursive, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #F9F9F9;
+    margin: 20px 0px;
+    border-bottom: 40px solid #F7BB0A;
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 500px;
+    border-radius: 10px 0px 0px 0px;
+}
+.description{
+    display: flex;
+}
+.descriptionTxt{
+    color: #555;
+    text-align: justify;
+    font-family: Cursive, Arial, Helvetica, sans-serif;
+    flex: 3;
+}
+.descriptionTxt scan{
+    padding-left: 20px;
+}
+.description .imagem{
+    flex: 1;
+    display: flex;
+    padding: 10px 5px;
+    justify-content: center;
+}
+.imagem img{
+    width: 250px;
+    object-fit: cover;
+    border:5px solid #e4c788;
+}
+.container img{
+    width: 300px;
+    object-fit: cover;
+}
+.discografy{
+    display: flex;
+}
+.discografyIMG{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 0px;
+}
+.discografyIMG img{
+    margin-bottom: 20px;
+    border: 3px double #999;
+    border-radius: 10px;
+}
+.discografyData{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.discografyData dl{
+    margin-right: 15px;
+    margin-top: -10px;
+}
+.discografyData dt{
+    line-height: 20px;
+    font-size: 12pt;
+    font-family: Cursive, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #f9f9f9;
+    border:3px solid #dac9a4;
+    width: 50px;
+    background-color: #dac9a4;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.discografyData dd{
+    line-height: 12px;
+    font-size: 10pt;
+    font-family: Cursive, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #555;
+}
+.discografyData .line{
+    height: 5px;
+    width: 260px;
+    border-bottom: 1px solid #999;
+}
+footer{
+    background-color: #999;
+    margin-top: -20px;
+}
+footer .footerCopyright{
+    width: 900px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #e4c788;
+    font-size: 8pt;
+    padding: 10px 0px;
+    border-top: 3px solid #e4c788;
+}
+.footerToTop a{
+    text-decoration: none;
+    color:#e4c788;
+}
+.death, .legacy{
+    font-family: Cursive, Arial, Helvetica, sans-serif;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 20px;
+}
